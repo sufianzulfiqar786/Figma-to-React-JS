@@ -1,0 +1,221 @@
+.homeBody{
+    background-image: url("../Img/Homebg.png");
+}
+
+
+
+.homeLastBtn{
+    background-color: white;
+    border: 1.7px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+}
+
+
+
+.homeLastContainer{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width:1003px) and (max-width:100003px){
+    .MobileScreenNavBar{
+        display: none;
+    }
+
+    .homeSerach button{
+        width: 70px;
+        height: 70px;
+        border: 1.7px solid rgba(0, 0, 0, 0.253);
+        border-radius: 5px;
+        background-color: #007bff;
+        }
+        
+        .homeSerach button i{
+            font-size: 25px;
+            color: white;
+        }
+
+        .fullScreenMenuName{
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+}
+
+@media (min-width:470px) and (max-width:1003px){
+.MobileScreenNavBar{
+    display: none;
+}
+
+
+.DataAndTimeHome{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.JustDateHome{
+    display: flex;
+    justify-content: end;
+}
+
+
+.homeSerach{
+    display: flex;
+        justify-content: end;
+}
+
+.homeSerach button{
+    margin-top: 21px;
+    width: 90px;
+    height: 35px;
+    border: 1.7px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    background-color: #007bff;
+    
+   
+    }
+    
+    .homeSerach button i{
+        font-size: 25px;
+        color: white;
+        
+    }
+
+    .homeVia{
+        display: flex;
+        justify-content: end;
+    }
+
+    .fullScreenMenuName{
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:470px){
+    
+.fullScreen{
+    display: none;
+}
+
+    /* Mobile Menu css  */
+
+    .notheight {
+        width: 0%;
+        height: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        transition: height 0.3s;
+        transition: width 0.3s;
+    }
+
+    .notheight1 {
+        max-height: 0px;
+        overflow-y: hidden;
+        transition: max-height 0.3s;
+    }
+
+    .mobile-screen {
+        background: rgba(0, 0, 0, .3);
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        width: 100%;
+        max-height: 100vh;
+        z-index: 10000;
+
+    }
+
+
+
+    .InnerClassMobileScreen {
+        width: 40%;
+        background-color: white;
+        /* transform: translateX(-100px); */
+        height: 100vh;
+        /* transition: all 1s; */
+    }
+
+    .MobileMenu1Icon {
+        /* background-color: red; */
+        font-size: 30px;
+    }
+
+    .headerMobileSideBar {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .headerMobileSideBar a {
+        margin-top: 10px;
+        margin-left: 10%;
+        text-decoration: none;
+        color: white;
+        width: 80%;
+        height: 40px;
+        border-radius: 30px;
+        background-color: #ffc107;
+        text-align: center;
+        font-size: 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .mobileMenuText:hover{
+       color: #F12797;
+    }
+
+    
+    /* Mobile Menu css ^ */
+
+
+.DataAndTimeHome{
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.JustDateHome{
+    display: flex;
+    justify-content: center;
+}
+
+
+.homeSerach{
+    display: flex;
+        justify-content: end;
+}
+
+.homeSerach button{
+    margin-top: 21px;
+    width: 90px;
+    height: 35px;
+    border: 1.7px solid rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    background-color: #007bff;
+    
+   
+    }
+    
+    .homeSerach button i{
+        font-size: 25px;
+        color: white;
+        
+    }
+
+    .homeVia{
+        display: flex;
+        justify-content: end;
+    }
+
+
+
+}

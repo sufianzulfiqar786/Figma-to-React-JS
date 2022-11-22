@@ -1,0 +1,14 @@
+.socialIcon {
+    font-size: 25px;
+}
+
+.footerBody {
+    background: linear-gradient(179.79deg, rgba(255, 255, 255, 0) -22.15%, #E8E8F5 79.69%, #E8E8F2 97.81%);
+}
+
+@media (min-width:0px) and (max-width:470px) {
+    /* .FooterResponsive{
+        display: flex;
+        justify-content: center;
+    } */
+}

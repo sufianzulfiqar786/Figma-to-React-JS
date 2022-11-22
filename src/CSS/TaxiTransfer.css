@@ -1,0 +1,12 @@
+.taxiTransferBody{
+    background-image: url("../Img/Homebg.png");
+}
+
+.taxiTransferBtn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 32px;
+    border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.newsImg img{
+width: 100%;
+}
+
+.newsBtn{
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    width: 120px;
+    height: 32px;
+    border-radius: 5px;
+}
